@@ -11,7 +11,5 @@ int main() {
     List_Insert(l, 1,2);
     List_Insert(l, 1,3);
     cout<<l->next->next->data<<endl;
-
-
     return 0;
 }
