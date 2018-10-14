@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "D:/Clion/Projects/DataStructure/LinearList/DuLinkList.cpp" "D:/Clion/Projects/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/LinearList/DuLinkList.cpp.obj"
   "D:/Clion/Projects/DataStructure/LinearList/LinkedList.cpp" "D:/Clion/Projects/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/LinearList/LinkedList.cpp.obj"
   "D:/Clion/Projects/DataStructure/LinearList/SeqList.cpp" "D:/Clion/Projects/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/LinearList/SeqList.cpp.obj"
   "D:/Clion/Projects/DataStructure/main.cpp" "D:/Clion/Projects/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/main.cpp.obj"

@@ -3,4 +3,4 @@ project(DataStructure)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(DataStructure main.cpp LinearList/SeqList.cpp LinearList/SeqList.h LinearList/LinkedList.cpp LinearList/LinkedList.h)
+add_executable(DataStructure main.cpp LinearList/SeqList.cpp LinearList/SeqList.h LinearList/LinkedList.cpp LinearList/LinkedList.h LinearList/DuLinkList.cpp LinearList/DuLinkList.h)

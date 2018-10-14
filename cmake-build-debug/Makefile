@@ -122,6 +122,33 @@ DataStructure/fast:
 	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/build
 .PHONY : DataStructure/fast
 
+LinearList/DuLinkList.obj: LinearList/DuLinkList.cpp.obj
+
+.PHONY : LinearList/DuLinkList.obj
+
+# target to build an object file
+LinearList/DuLinkList.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/DuLinkList.cpp.obj
+.PHONY : LinearList/DuLinkList.cpp.obj
+
+LinearList/DuLinkList.i: LinearList/DuLinkList.cpp.i
+
+.PHONY : LinearList/DuLinkList.i
+
+# target to preprocess a source file
+LinearList/DuLinkList.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/DuLinkList.cpp.i
+.PHONY : LinearList/DuLinkList.cpp.i
+
+LinearList/DuLinkList.s: LinearList/DuLinkList.cpp.s
+
+.PHONY : LinearList/DuLinkList.s
+
+# target to generate assembly for a file
+LinearList/DuLinkList.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/DuLinkList.cpp.s
+.PHONY : LinearList/DuLinkList.cpp.s
+
 LinearList/LinkedList.obj: LinearList/LinkedList.cpp.obj
 
 .PHONY : LinearList/LinkedList.obj
@@ -212,6 +239,9 @@ help:
 	@echo ... DataStructure
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... LinearList/DuLinkList.obj
+	@echo ... LinearList/DuLinkList.i
+	@echo ... LinearList/DuLinkList.s
 	@echo ... LinearList/LinkedList.obj
 	@echo ... LinearList/LinkedList.i
 	@echo ... LinearList/LinkedList.s
