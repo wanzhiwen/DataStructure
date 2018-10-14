@@ -40,7 +40,7 @@ bool DuList_Insert(DuLinkList &L, int loc, int elem) {
 }
 
 bool DuList_Delete(DuLinkList &L,int loc,int &elem){
-    DuLinkList p,q,s;
+    DuLinkList p;
     int count=0;
     p=L;
     while(p->next && count<loc){
