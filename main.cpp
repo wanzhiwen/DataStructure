@@ -4,34 +4,36 @@ using namespace std;
 #include "LinearList/LinkedList.h"
 #include "LinearList/DuLinkList.h"
 #include "LinearList/LinkStack.h"
+#include "LinearList/SeqStack.h"
 
 
 int main() {
 
-    LinkStack s;
-    LinkStack_Init(s);
-    int len = LinkStack_Length(s);
-    cout << len << endl;
-    LinkStack_Push(s, 1);
-    len = LinkStack_Length(s);
-    cout << len << endl;
-    LinkStack_Push(s, 19);
-    len = LinkStack_Length(s);
-    cout << len << endl;
-    int top;
-    LinkStack_GetTop(s, top);
-    cout << top << endl;
-    bool b = LinkStack_Empty(s);
-    cout << "empty:" << b << endl;
-    int pop;
-    LinkStack_Pop(s, pop);
-    cout << "pop:" << pop << endl;
-    LinkStack_GetTop(s, top);
-    cout << "top:" << top << endl;
-    LinkStack_Pop(s, pop);
-    b = LinkStack_Empty(s);
-    cout << "empty:" << b << endl;
-    LinkStack_Destroy(s);
+    SeqStack s;
+    int top,pop;
+    SeqStack_Init(s,100,10);
+    SeqStack_Push(s, 10);
+    SeqStack_GetTop(s, top);
+    cout << "top1:" << top << endl;
+    SeqStack_Push(s, 20);
+    SeqStack_GetTop(s, top);
+    cout << "top2:" << top << endl;
+    SeqStack_Push(s, 30);
+    SeqStack_GetTop(s, top);
+    cout << "top3:" << top << endl;
+    cout << "len1:" << SeqStack_Length(s) << endl;
+    SeqStack_Pop(s,pop);
+    cout << "pop1:" << pop << endl;
+    cout << "len2::" << SeqStack_Length(s) << endl;
+    SeqStack_Pop(s,pop);
+    cout << "pop2:" << pop << endl;
+    cout << "len3::" << SeqStack_Length(s) << endl;
+    cout<<"empty:"<<SeqStack_Empty(s)<<endl;
+    SeqStack_Pop(s,pop);
+    cout << "pop3:" << pop << endl;
+    cout << "len4::" << SeqStack_Length(s) << endl;
+    cout<<"empty:"<<SeqStack_Empty(s)<<endl;
+    SeqStack_Destroy(s);
 
     return 0;
 }

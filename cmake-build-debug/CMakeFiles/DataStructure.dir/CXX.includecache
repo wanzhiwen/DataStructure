@@ -44,6 +44,16 @@ iostream
 
 D:/Clion/Projects/DataStructure/LinearList/SeqList.h
 
+D:/Clion/Projects/DataStructure/LinearList/SeqStack.cpp
+SeqStack.h
+D:/Clion/Projects/DataStructure/LinearList/SeqStack.h
+LinkedList.h
+D:/Clion/Projects/DataStructure/LinearList/LinkedList.h
+iostream
+D:/Clion/Projects/DataStructure/LinearList/iostream
+
+D:/Clion/Projects/DataStructure/LinearList/SeqStack.h
+
 D:/Clion/Projects/DataStructure/main.cpp
 iostream
 -
@@ -53,4 +63,6 @@ LinearList/DuLinkList.h
 D:/Clion/Projects/DataStructure/LinearList/DuLinkList.h
 LinearList/LinkStack.h
 D:/Clion/Projects/DataStructure/LinearList/LinkStack.h
+LinearList/SeqStack.h
+D:/Clion/Projects/DataStructure/LinearList/SeqStack.h
 

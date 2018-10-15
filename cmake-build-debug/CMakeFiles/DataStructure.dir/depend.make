@@ -16,9 +16,15 @@ CMakeFiles/DataStructure.dir/LinearList/LinkedList.cpp.obj: ../LinearList/SeqLis
 CMakeFiles/DataStructure.dir/LinearList/SeqList.cpp.obj: ../LinearList/SeqList.cpp
 CMakeFiles/DataStructure.dir/LinearList/SeqList.cpp.obj: ../LinearList/SeqList.h
 
+CMakeFiles/DataStructure.dir/LinearList/SeqStack.cpp.obj: ../LinearList/LinkedList.h
+CMakeFiles/DataStructure.dir/LinearList/SeqStack.cpp.obj: ../LinearList/SeqList.h
+CMakeFiles/DataStructure.dir/LinearList/SeqStack.cpp.obj: ../LinearList/SeqStack.cpp
+CMakeFiles/DataStructure.dir/LinearList/SeqStack.cpp.obj: ../LinearList/SeqStack.h
+
 CMakeFiles/DataStructure.dir/main.cpp.obj: ../LinearList/DuLinkList.h
 CMakeFiles/DataStructure.dir/main.cpp.obj: ../LinearList/LinkStack.h
 CMakeFiles/DataStructure.dir/main.cpp.obj: ../LinearList/LinkedList.h
 CMakeFiles/DataStructure.dir/main.cpp.obj: ../LinearList/SeqList.h
+CMakeFiles/DataStructure.dir/main.cpp.obj: ../LinearList/SeqStack.h
 CMakeFiles/DataStructure.dir/main.cpp.obj: ../main.cpp
 

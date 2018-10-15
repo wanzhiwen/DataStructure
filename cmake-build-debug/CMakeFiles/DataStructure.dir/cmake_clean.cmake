@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/DataStructure.dir/LinearList/DuLinkList.cpp.obj"
   "CMakeFiles/DataStructure.dir/LinearList/LinkStack.cpp.obj"
   "CMakeFiles/DataStructure.dir/LinearList/SeqStack.cpp.obj"
+  "CMakeFiles/DataStructure.dir/LinearList/SeqQueue.cpp.obj"
   "DataStructure.pdb"
   "DataStructure.exe"
   "DataStructure.exe.manifest"

@@ -230,6 +230,33 @@ LinearList/SeqList.cpp.s:
 	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/SeqList.cpp.s
 .PHONY : LinearList/SeqList.cpp.s
 
+LinearList/SeqQueue.obj: LinearList/SeqQueue.cpp.obj
+
+.PHONY : LinearList/SeqQueue.obj
+
+# target to build an object file
+LinearList/SeqQueue.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/SeqQueue.cpp.obj
+.PHONY : LinearList/SeqQueue.cpp.obj
+
+LinearList/SeqQueue.i: LinearList/SeqQueue.cpp.i
+
+.PHONY : LinearList/SeqQueue.i
+
+# target to preprocess a source file
+LinearList/SeqQueue.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/SeqQueue.cpp.i
+.PHONY : LinearList/SeqQueue.cpp.i
+
+LinearList/SeqQueue.s: LinearList/SeqQueue.cpp.s
+
+.PHONY : LinearList/SeqQueue.s
+
+# target to generate assembly for a file
+LinearList/SeqQueue.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/SeqQueue.cpp.s
+.PHONY : LinearList/SeqQueue.cpp.s
+
 LinearList/SeqStack.obj: LinearList/SeqStack.cpp.obj
 
 .PHONY : LinearList/SeqStack.obj
@@ -305,6 +332,9 @@ help:
 	@echo ... LinearList/SeqList.obj
 	@echo ... LinearList/SeqList.i
 	@echo ... LinearList/SeqList.s
+	@echo ... LinearList/SeqQueue.obj
+	@echo ... LinearList/SeqQueue.i
+	@echo ... LinearList/SeqQueue.s
 	@echo ... LinearList/SeqStack.obj
 	@echo ... LinearList/SeqStack.i
 	@echo ... LinearList/SeqStack.s

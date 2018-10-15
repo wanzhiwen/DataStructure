@@ -106,6 +106,12 @@
 		<Unit filename="D:/Clion/Projects/DataStructure/LinearList/SeqList.h">
 			<Option target="DataStructure"/>
 		</Unit>
+		<Unit filename="D:/Clion/Projects/DataStructure/LinearList/SeqQueue.cpp">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Clion/Projects/DataStructure/LinearList/SeqQueue.h">
+			<Option target="DataStructure"/>
+		</Unit>
 		<Unit filename="D:/Clion/Projects/DataStructure/LinearList/SeqStack.cpp">
 			<Option target="DataStructure"/>
 		</Unit>
