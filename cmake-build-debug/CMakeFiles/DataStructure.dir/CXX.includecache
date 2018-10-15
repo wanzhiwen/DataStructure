@@ -14,6 +14,18 @@ D:/Clion/Projects/DataStructure/LinearList/DuLinkList.h
 
 D:/Clion/Projects/DataStructure/LinearList/DuLinkList.h
 
+D:/Clion/Projects/DataStructure/LinearList/LinkStack.cpp
+iostream
+-
+LinkStack.h
+D:/Clion/Projects/DataStructure/LinearList/LinkStack.h
+LinkedList.h
+D:/Clion/Projects/DataStructure/LinearList/LinkedList.h
+
+D:/Clion/Projects/DataStructure/LinearList/LinkStack.h
+LinkedList.h
+D:/Clion/Projects/DataStructure/LinearList/LinkedList.h
+
 D:/Clion/Projects/DataStructure/LinearList/LinkedList.cpp
 iostream
 -
@@ -39,4 +51,6 @@ LinearList/LinkedList.h
 D:/Clion/Projects/DataStructure/LinearList/LinkedList.h
 LinearList/DuLinkList.h
 D:/Clion/Projects/DataStructure/LinearList/DuLinkList.h
+LinearList/LinkStack.h
+D:/Clion/Projects/DataStructure/LinearList/LinkStack.h
 

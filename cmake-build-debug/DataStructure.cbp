@@ -88,6 +88,12 @@
 		<Unit filename="D:/Clion/Projects/DataStructure/LinearList/DuLinkList.h">
 			<Option target="DataStructure"/>
 		</Unit>
+		<Unit filename="D:/Clion/Projects/DataStructure/LinearList/LinkStack.cpp">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Clion/Projects/DataStructure/LinearList/LinkStack.h">
+			<Option target="DataStructure"/>
+		</Unit>
 		<Unit filename="D:/Clion/Projects/DataStructure/LinearList/LinkedList.cpp">
 			<Option target="DataStructure"/>
 		</Unit>
@@ -98,6 +104,12 @@
 			<Option target="DataStructure"/>
 		</Unit>
 		<Unit filename="D:/Clion/Projects/DataStructure/LinearList/SeqList.h">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Clion/Projects/DataStructure/LinearList/SeqStack.cpp">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Clion/Projects/DataStructure/LinearList/SeqStack.h">
 			<Option target="DataStructure"/>
 		</Unit>
 		<Unit filename="D:/Clion/Projects/DataStructure/main.cpp">

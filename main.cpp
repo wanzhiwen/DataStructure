@@ -3,19 +3,35 @@ using namespace std;
 #include <iostream>
 #include "LinearList/LinkedList.h"
 #include "LinearList/DuLinkList.h"
+#include "LinearList/LinkStack.h"
 
 
 int main() {
 
-    DuLinkList l;
-    DuList_Init(l);
-    DuList_Insert(l,1,1);
-    DuList_Insert(l,1,2);
-    DuList_Insert(l,1,3);
-    cout<<l->next->data<<l->next->next->data<<l->next->next->next->data<<endl;
-    int elem;
-    bool b=DuList_Delete(l,4,elem);
-    cout<<b<<endl;
-    cout<<l->next->data<<l->next->next->data<<endl;
+    LinkStack s;
+    LinkStack_Init(s);
+    int len = LinkStack_Length(s);
+    cout << len << endl;
+    LinkStack_Push(s, 1);
+    len = LinkStack_Length(s);
+    cout << len << endl;
+    LinkStack_Push(s, 19);
+    len = LinkStack_Length(s);
+    cout << len << endl;
+    int top;
+    LinkStack_GetTop(s, top);
+    cout << top << endl;
+    bool b = LinkStack_Empty(s);
+    cout << "empty:" << b << endl;
+    int pop;
+    LinkStack_Pop(s, pop);
+    cout << "pop:" << pop << endl;
+    LinkStack_GetTop(s, top);
+    cout << "top:" << top << endl;
+    LinkStack_Pop(s, pop);
+    b = LinkStack_Empty(s);
+    cout << "empty:" << b << endl;
+    LinkStack_Destroy(s);
+
     return 0;
 }

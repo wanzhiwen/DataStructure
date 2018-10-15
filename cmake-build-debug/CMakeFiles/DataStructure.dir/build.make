@@ -152,12 +152,62 @@ CMakeFiles/DataStructure.dir/LinearList/DuLinkList.cpp.obj.provides: CMakeFiles/
 CMakeFiles/DataStructure.dir/LinearList/DuLinkList.cpp.obj.provides.build: CMakeFiles/DataStructure.dir/LinearList/DuLinkList.cpp.obj
 
 
+CMakeFiles/DataStructure.dir/LinearList/LinkStack.cpp.obj: CMakeFiles/DataStructure.dir/flags.make
+CMakeFiles/DataStructure.dir/LinearList/LinkStack.cpp.obj: ../LinearList/LinkStack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Clion\Projects\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DataStructure.dir/LinearList/LinkStack.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructure.dir\LinearList\LinkStack.cpp.obj -c D:\Clion\Projects\DataStructure\LinearList\LinkStack.cpp
+
+CMakeFiles/DataStructure.dir/LinearList/LinkStack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructure.dir/LinearList/LinkStack.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Clion\Projects\DataStructure\LinearList\LinkStack.cpp > CMakeFiles\DataStructure.dir\LinearList\LinkStack.cpp.i
+
+CMakeFiles/DataStructure.dir/LinearList/LinkStack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure.dir/LinearList/LinkStack.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Clion\Projects\DataStructure\LinearList\LinkStack.cpp -o CMakeFiles\DataStructure.dir\LinearList\LinkStack.cpp.s
+
+CMakeFiles/DataStructure.dir/LinearList/LinkStack.cpp.obj.requires:
+
+.PHONY : CMakeFiles/DataStructure.dir/LinearList/LinkStack.cpp.obj.requires
+
+CMakeFiles/DataStructure.dir/LinearList/LinkStack.cpp.obj.provides: CMakeFiles/DataStructure.dir/LinearList/LinkStack.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/LinkStack.cpp.obj.provides.build
+.PHONY : CMakeFiles/DataStructure.dir/LinearList/LinkStack.cpp.obj.provides
+
+CMakeFiles/DataStructure.dir/LinearList/LinkStack.cpp.obj.provides.build: CMakeFiles/DataStructure.dir/LinearList/LinkStack.cpp.obj
+
+
+CMakeFiles/DataStructure.dir/LinearList/SeqStack.cpp.obj: CMakeFiles/DataStructure.dir/flags.make
+CMakeFiles/DataStructure.dir/LinearList/SeqStack.cpp.obj: ../LinearList/SeqStack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Clion\Projects\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/DataStructure.dir/LinearList/SeqStack.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructure.dir\LinearList\SeqStack.cpp.obj -c D:\Clion\Projects\DataStructure\LinearList\SeqStack.cpp
+
+CMakeFiles/DataStructure.dir/LinearList/SeqStack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructure.dir/LinearList/SeqStack.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Clion\Projects\DataStructure\LinearList\SeqStack.cpp > CMakeFiles\DataStructure.dir\LinearList\SeqStack.cpp.i
+
+CMakeFiles/DataStructure.dir/LinearList/SeqStack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure.dir/LinearList/SeqStack.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Clion\Projects\DataStructure\LinearList\SeqStack.cpp -o CMakeFiles\DataStructure.dir\LinearList\SeqStack.cpp.s
+
+CMakeFiles/DataStructure.dir/LinearList/SeqStack.cpp.obj.requires:
+
+.PHONY : CMakeFiles/DataStructure.dir/LinearList/SeqStack.cpp.obj.requires
+
+CMakeFiles/DataStructure.dir/LinearList/SeqStack.cpp.obj.provides: CMakeFiles/DataStructure.dir/LinearList/SeqStack.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/SeqStack.cpp.obj.provides.build
+.PHONY : CMakeFiles/DataStructure.dir/LinearList/SeqStack.cpp.obj.provides
+
+CMakeFiles/DataStructure.dir/LinearList/SeqStack.cpp.obj.provides.build: CMakeFiles/DataStructure.dir/LinearList/SeqStack.cpp.obj
+
+
 # Object files for target DataStructure
 DataStructure_OBJECTS = \
 "CMakeFiles/DataStructure.dir/main.cpp.obj" \
 "CMakeFiles/DataStructure.dir/LinearList/SeqList.cpp.obj" \
 "CMakeFiles/DataStructure.dir/LinearList/LinkedList.cpp.obj" \
-"CMakeFiles/DataStructure.dir/LinearList/DuLinkList.cpp.obj"
+"CMakeFiles/DataStructure.dir/LinearList/DuLinkList.cpp.obj" \
+"CMakeFiles/DataStructure.dir/LinearList/LinkStack.cpp.obj" \
+"CMakeFiles/DataStructure.dir/LinearList/SeqStack.cpp.obj"
 
 # External object files for target DataStructure
 DataStructure_EXTERNAL_OBJECTS =
@@ -166,11 +216,13 @@ DataStructure.exe: CMakeFiles/DataStructure.dir/main.cpp.obj
 DataStructure.exe: CMakeFiles/DataStructure.dir/LinearList/SeqList.cpp.obj
 DataStructure.exe: CMakeFiles/DataStructure.dir/LinearList/LinkedList.cpp.obj
 DataStructure.exe: CMakeFiles/DataStructure.dir/LinearList/DuLinkList.cpp.obj
+DataStructure.exe: CMakeFiles/DataStructure.dir/LinearList/LinkStack.cpp.obj
+DataStructure.exe: CMakeFiles/DataStructure.dir/LinearList/SeqStack.cpp.obj
 DataStructure.exe: CMakeFiles/DataStructure.dir/build.make
 DataStructure.exe: CMakeFiles/DataStructure.dir/linklibs.rsp
 DataStructure.exe: CMakeFiles/DataStructure.dir/objects1.rsp
 DataStructure.exe: CMakeFiles/DataStructure.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Clion\Projects\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable DataStructure.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Clion\Projects\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable DataStructure.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DataStructure.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -182,6 +234,8 @@ CMakeFiles/DataStructure.dir/requires: CMakeFiles/DataStructure.dir/main.cpp.obj
 CMakeFiles/DataStructure.dir/requires: CMakeFiles/DataStructure.dir/LinearList/SeqList.cpp.obj.requires
 CMakeFiles/DataStructure.dir/requires: CMakeFiles/DataStructure.dir/LinearList/LinkedList.cpp.obj.requires
 CMakeFiles/DataStructure.dir/requires: CMakeFiles/DataStructure.dir/LinearList/DuLinkList.cpp.obj.requires
+CMakeFiles/DataStructure.dir/requires: CMakeFiles/DataStructure.dir/LinearList/LinkStack.cpp.obj.requires
+CMakeFiles/DataStructure.dir/requires: CMakeFiles/DataStructure.dir/LinearList/SeqStack.cpp.obj.requires
 
 .PHONY : CMakeFiles/DataStructure.dir/requires
 

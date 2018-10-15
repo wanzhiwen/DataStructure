@@ -149,6 +149,33 @@ LinearList/DuLinkList.cpp.s:
 	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/DuLinkList.cpp.s
 .PHONY : LinearList/DuLinkList.cpp.s
 
+LinearList/LinkStack.obj: LinearList/LinkStack.cpp.obj
+
+.PHONY : LinearList/LinkStack.obj
+
+# target to build an object file
+LinearList/LinkStack.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/LinkStack.cpp.obj
+.PHONY : LinearList/LinkStack.cpp.obj
+
+LinearList/LinkStack.i: LinearList/LinkStack.cpp.i
+
+.PHONY : LinearList/LinkStack.i
+
+# target to preprocess a source file
+LinearList/LinkStack.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/LinkStack.cpp.i
+.PHONY : LinearList/LinkStack.cpp.i
+
+LinearList/LinkStack.s: LinearList/LinkStack.cpp.s
+
+.PHONY : LinearList/LinkStack.s
+
+# target to generate assembly for a file
+LinearList/LinkStack.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/LinkStack.cpp.s
+.PHONY : LinearList/LinkStack.cpp.s
+
 LinearList/LinkedList.obj: LinearList/LinkedList.cpp.obj
 
 .PHONY : LinearList/LinkedList.obj
@@ -203,6 +230,33 @@ LinearList/SeqList.cpp.s:
 	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/SeqList.cpp.s
 .PHONY : LinearList/SeqList.cpp.s
 
+LinearList/SeqStack.obj: LinearList/SeqStack.cpp.obj
+
+.PHONY : LinearList/SeqStack.obj
+
+# target to build an object file
+LinearList/SeqStack.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/SeqStack.cpp.obj
+.PHONY : LinearList/SeqStack.cpp.obj
+
+LinearList/SeqStack.i: LinearList/SeqStack.cpp.i
+
+.PHONY : LinearList/SeqStack.i
+
+# target to preprocess a source file
+LinearList/SeqStack.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/SeqStack.cpp.i
+.PHONY : LinearList/SeqStack.cpp.i
+
+LinearList/SeqStack.s: LinearList/SeqStack.cpp.s
+
+.PHONY : LinearList/SeqStack.s
+
+# target to generate assembly for a file
+LinearList/SeqStack.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/SeqStack.cpp.s
+.PHONY : LinearList/SeqStack.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -242,12 +296,18 @@ help:
 	@echo ... LinearList/DuLinkList.obj
 	@echo ... LinearList/DuLinkList.i
 	@echo ... LinearList/DuLinkList.s
+	@echo ... LinearList/LinkStack.obj
+	@echo ... LinearList/LinkStack.i
+	@echo ... LinearList/LinkStack.s
 	@echo ... LinearList/LinkedList.obj
 	@echo ... LinearList/LinkedList.i
 	@echo ... LinearList/LinkedList.s
 	@echo ... LinearList/SeqList.obj
 	@echo ... LinearList/SeqList.i
 	@echo ... LinearList/SeqList.s
+	@echo ... LinearList/SeqStack.obj
+	@echo ... LinearList/SeqStack.i
+	@echo ... LinearList/SeqStack.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
