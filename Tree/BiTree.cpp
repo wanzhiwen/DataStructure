@@ -29,3 +29,17 @@ void PostOrder(BiTree BT) {
         cout << BT->data << " " << endl;
     }
 }
+
+int BiTreeDepth(BiTree BT){
+    if (BT){
+        int lDepth=BiTreeDepth(BT->lchild);
+        int rDepth=BiTreeDepth(BT->rchild);
+        return lDepth>rDepth?lDepth+1:rDepth+1;
+    } else{
+        return 0;
+    }
+}
+
+void LevelOrder(BiTree BT){
+
+}

@@ -19,6 +19,10 @@ void InOrder(BiTree BT);
 //后序遍历二叉树
 void PostOrder(BiTree BT);
 
-int BitreeDepth(BiTree BT);
+//层次遍历二叉树
+void LevelOrder(BiTree BT);
+
+//求二叉树深度
+int BiTreeDepth(BiTree BT);
 
 #endif
