@@ -284,6 +284,33 @@ LinearList/SeqStack.cpp.s:
 	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/SeqStack.cpp.s
 .PHONY : LinearList/SeqStack.cpp.s
 
+Tree/BiTree.obj: Tree/BiTree.cpp.obj
+
+.PHONY : Tree/BiTree.obj
+
+# target to build an object file
+Tree/BiTree.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/BiTree.cpp.obj
+.PHONY : Tree/BiTree.cpp.obj
+
+Tree/BiTree.i: Tree/BiTree.cpp.i
+
+.PHONY : Tree/BiTree.i
+
+# target to preprocess a source file
+Tree/BiTree.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/BiTree.cpp.i
+.PHONY : Tree/BiTree.cpp.i
+
+Tree/BiTree.s: Tree/BiTree.cpp.s
+
+.PHONY : Tree/BiTree.s
+
+# target to generate assembly for a file
+Tree/BiTree.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/BiTree.cpp.s
+.PHONY : Tree/BiTree.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -338,6 +365,9 @@ help:
 	@echo ... LinearList/SeqStack.obj
 	@echo ... LinearList/SeqStack.i
 	@echo ... LinearList/SeqStack.s
+	@echo ... Tree/BiTree.obj
+	@echo ... Tree/BiTree.i
+	@echo ... Tree/BiTree.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

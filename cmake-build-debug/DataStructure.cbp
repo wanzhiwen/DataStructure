@@ -118,6 +118,12 @@
 		<Unit filename="D:/Clion/Projects/DataStructure/LinearList/SeqStack.h">
 			<Option target="DataStructure"/>
 		</Unit>
+		<Unit filename="D:/Clion/Projects/DataStructure/Tree/BiTree.cpp">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Clion/Projects/DataStructure/Tree/BiTree.h">
+			<Option target="DataStructure"/>
+		</Unit>
 		<Unit filename="D:/Clion/Projects/DataStructure/main.cpp">
 			<Option target="DataStructure"/>
 		</Unit>

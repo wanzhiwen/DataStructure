@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Clion/Projects/DataStructure/LinearList/SeqList.cpp" "D:/Clion/Projects/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/LinearList/SeqList.cpp.obj"
   "D:/Clion/Projects/DataStructure/LinearList/SeqQueue.cpp" "D:/Clion/Projects/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/LinearList/SeqQueue.cpp.obj"
   "D:/Clion/Projects/DataStructure/LinearList/SeqStack.cpp" "D:/Clion/Projects/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/LinearList/SeqStack.cpp.obj"
+  "D:/Clion/Projects/DataStructure/Tree/BiTree.cpp" "D:/Clion/Projects/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/Tree/BiTree.cpp.obj"
   "D:/Clion/Projects/DataStructure/main.cpp" "D:/Clion/Projects/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
