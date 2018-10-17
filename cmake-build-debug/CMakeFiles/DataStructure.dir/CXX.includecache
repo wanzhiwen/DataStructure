@@ -67,6 +67,8 @@ BiTree.h
 D:/Clion/Projects/DataStructure/Tree/BiTree.h
 iostream
 D:/Clion/Projects/DataStructure/Tree/iostream
+../LinearList/SeqQueue.h
+D:/Clion/Projects/DataStructure/LinearList/SeqQueue.h
 
 D:/Clion/Projects/DataStructure/Tree/BiTree.h
 
@@ -83,4 +85,6 @@ LinearList/SeqStack.h
 D:/Clion/Projects/DataStructure/LinearList/SeqStack.h
 LinearList/SeqQueue.h
 D:/Clion/Projects/DataStructure/LinearList/SeqQueue.h
+Tree/BiTree.h
+D:/Clion/Projects/DataStructure/Tree/BiTree.h
 
