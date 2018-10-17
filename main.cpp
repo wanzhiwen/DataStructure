@@ -6,20 +6,25 @@ using namespace std;
 #include "LinearList/LinkStack.h"
 #include "LinearList/SeqStack.h"
 #include "LinearList/SeqQueue.h"
+#include "Tree/BiTree.h"
 
 
 int main() {
-    bool b;
-    SeqQueue s;
-    SeqQueue_Init(s, 3, 2);
-    b = SeqQueue_EnQueue(s, 1);
-    cout << b << endl;
-    b = SeqQueue_EnQueue(s, 2);
-    cout << b << endl;
-    b = SeqQueue_EnQueue(s, 3);
-    cout << b << endl;
-    cout << "len:" << sizeof(s.queue) / sizeof(int) << endl;
-    cout << s.queue[1] << s.queue[2] << s.queue[3] << endl;
 
+    BiTree bt1,bt2,bt3,bt4,bt5,bt6,bt7;
+    BiTree_Init(bt1,1);
+    BiTree_Init(bt2,2);
+    BiTree_Init(bt3,3);
+    BiTree_Init(bt4,4);
+    BiTree_Init(bt5,5);
+    BiTree_Init(bt6,6);
+    BiTree_Init(bt7,7);
+    bt1->lchild=bt2;
+    bt1->rchild=bt3;
+    bt2->lchild=bt4;
+    bt2->rchild=bt5;
+    bt3->lchild=bt6;
+    bt3->rchild=bt7;
+    LevelOrder(bt1);
     return 0;
 }

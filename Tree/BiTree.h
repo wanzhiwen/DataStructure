@@ -3,12 +3,16 @@
 //
 #ifndef DATASTRUCTURE_BITREE_H
 #define DATASTRUCTURE_BITREE_H
-
+#define MAXNODES 100
+#define INCREMENT 10
 typedef struct BiTNode{
     int data;
     struct BiTNode *lchild;
     struct BiTNode *rchild;
 }BiTNode,*BiTree;
+
+//二叉树初始化
+bool BiTree_Init(BiTree &BT, int data);
 
 //先序遍历二叉树
 void PreOrder(BiTree BT);
