@@ -71,3 +71,23 @@ void LevelOrder(BiTree BT) {
         }
     }
 }
+
+void PrintBiTree(BiTree BT, int n) {
+    int i;
+    if (!BT)return;
+    PrintBiTree(BT->rchild, n + 1);
+    for (i = 2; i < n; ++i)
+        cout << "      ";
+    if (n > 1)cout << "  - - -";
+    cout << BT->data << endl;
+    PrintBiTree(BT->lchild, n + 1);
+}
+
+void DestroyBiTree(BiTree &BT) {
+    if (BT) {
+        DestroyBiTree(BT->lchild);
+        DestroyBiTree(BT->rchild);
+        free(BT);
+        BT = NULL;
+    }
+}

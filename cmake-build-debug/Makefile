@@ -311,6 +311,33 @@ Tree/BiTree.cpp.s:
 	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/BiTree.cpp.s
 .PHONY : Tree/BiTree.cpp.s
 
+Tree/HuffmanTree.obj: Tree/HuffmanTree.cpp.obj
+
+.PHONY : Tree/HuffmanTree.obj
+
+# target to build an object file
+Tree/HuffmanTree.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/HuffmanTree.cpp.obj
+.PHONY : Tree/HuffmanTree.cpp.obj
+
+Tree/HuffmanTree.i: Tree/HuffmanTree.cpp.i
+
+.PHONY : Tree/HuffmanTree.i
+
+# target to preprocess a source file
+Tree/HuffmanTree.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/HuffmanTree.cpp.i
+.PHONY : Tree/HuffmanTree.cpp.i
+
+Tree/HuffmanTree.s: Tree/HuffmanTree.cpp.s
+
+.PHONY : Tree/HuffmanTree.s
+
+# target to generate assembly for a file
+Tree/HuffmanTree.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/HuffmanTree.cpp.s
+.PHONY : Tree/HuffmanTree.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -368,6 +395,9 @@ help:
 	@echo ... Tree/BiTree.obj
 	@echo ... Tree/BiTree.i
 	@echo ... Tree/BiTree.s
+	@echo ... Tree/HuffmanTree.obj
+	@echo ... Tree/HuffmanTree.i
+	@echo ... Tree/HuffmanTree.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

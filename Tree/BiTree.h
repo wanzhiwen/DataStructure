@@ -29,4 +29,10 @@ void LevelOrder(BiTree BT);
 //求二叉树深度
 int BiTreeDepth(BiTree BT);
 
+//打印二叉树,n表示缩进层数
+void PrintBiTree(BiTree biTree,int n);
+
+//二叉树销毁
+void DestroyBiTree(BiTree &BT);
+
 #endif
