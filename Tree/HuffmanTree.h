@@ -5,21 +5,27 @@
 #ifndef DATASTRUCTURE_HUFFMANTREE_H
 #define DATASTRUCTURE_HUFFMANTREE_H
 
-typedef char* HuffmanCode;
+#include <iostream>
+
+typedef char *HuffmanCode;
 
 typedef struct {
-    unsigned int weight;
-    unsigned int parent;
-    unsigned int LChild;
-    unsigned int RChild;
-}HTNode,* HuffmanTree;
+    int weight;
+    int parent;
+    int LChild;
+    int RChild;
+} HTNode, *HuffmanTree;
 
-void Select(HuffmanTree *ht,int n,int *s1,int *s2);
+//选择两个权值最小的节点
+void Select(HuffmanTree *ht, int n, int *s1, int *s2);
 
-void CrtHuffmanTree(HuffmanTree *ht,int *w,int n);
+//构建哈夫曼二叉树
+void CreateHuffmanTree(HuffmanTree *ht, int *w, int n);
 
-void OutputHuffman(HuffmanTree HT,int m);
+//先序输出构建出来的哈夫曼二叉树
+void OutputHuffman(HuffmanTree HT, int m);
 
-void CrtHuffmanCode(HuffmanTree *ht,HuffmanCode *hc,int n);
+//构建哈夫曼编码
+void CreateHuffmanCode(HuffmanTree ht, HuffmanCode *hc, int n);
 
 #endif

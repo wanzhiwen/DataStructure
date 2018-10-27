@@ -72,6 +72,16 @@ D:/Clion/Projects/DataStructure/LinearList/SeqQueue.h
 
 D:/Clion/Projects/DataStructure/Tree/BiTree.h
 
+D:/Clion/Projects/DataStructure/Tree/HuffmanTree.cpp
+cstring
+-
+HuffmanTree.h
+D:/Clion/Projects/DataStructure/Tree/HuffmanTree.h
+
+D:/Clion/Projects/DataStructure/Tree/HuffmanTree.h
+iostream
+-
+
 D:/Clion/Projects/DataStructure/main.cpp
 iostream
 -
@@ -87,4 +97,6 @@ LinearList/SeqQueue.h
 D:/Clion/Projects/DataStructure/LinearList/SeqQueue.h
 Tree/BiTree.h
 D:/Clion/Projects/DataStructure/Tree/BiTree.h
+Tree/HuffmanTree.h
+D:/Clion/Projects/DataStructure/Tree/HuffmanTree.h
 
