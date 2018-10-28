@@ -6,31 +6,31 @@
 
 using namespace std;
 
-void Select(HuffmanTree *ht, int n, int *s1, int *s2) {
+void Select(HuffmanTree ht, int n, int *s1, int *s2) {
     int min = 0;
     for (int i = 1; i <= n; ++i) {
-        if ((*ht)[i].parent == 0) {
+        if (ht[i].parent == 0) {
             min = i;
             break;
         }
     }//随机选取一个没有双亲节点的节点
     for (int j = 1; j <= n; ++j) {
-        if ((*ht)[j].parent == 0) {
-            if ((*ht)[j].weight < (*ht)[min].weight) {
+        if (ht[j].parent == 0) {
+            if (ht[j].weight < ht[min].weight) {
                 min = j;
             }
         }
     }//比较没有双亲节点的所有节点中权重最小的节点
     *s1 = min;//选取到的权重最小的节点
     for (int i = 1; i <= n; ++i) {
-        if ((*ht)[i].parent == 0 && i != (*s1)) {
+        if (ht[i].parent == 0 && i != (*s1)) {
             min = i;
             break;
         }
     }//随机选取一个除第一次选取的节点外没有双亲节点的节点
     for (int j = 1; j <= n; ++j) {
-        if ((*ht)[j].parent == 0 && j != (*s1)) {
-            if ((*ht)[j].weight < (*ht)[min].weight) {
+        if (ht[j].parent == 0 && j != (*s1)) {
+            if (ht[j].weight < ht[min].weight) {
                 min = j;
             }
         }
@@ -42,7 +42,6 @@ void CreateHuffmanTree(HuffmanTree *ht, int *w, int n) {
     int s1, s2, m;
     m = 2 * n - 1;//总节点数
     *ht = (HuffmanTree) malloc((m + 1) * sizeof(HTNode));
-    Select(ht, n, &s1, &s2);
     for (int i = 1; i <= n; ++i) {
         (*ht)[i].weight = w[i];
         (*ht)[i].parent = 0;
@@ -56,7 +55,7 @@ void CreateHuffmanTree(HuffmanTree *ht, int *w, int n) {
         (*ht)[j].RChild = 0;
     }//非叶子节点初始化
     for (int k = n + 1; k <= m; ++k) {
-        Select(ht, k-1 , &s1, &s2);
+        Select(*ht, k-1 , &s1, &s2);
         (*ht)[s1].parent = k;
         (*ht)[s2].parent = k;
         (*ht)[k].LChild = s1;
@@ -67,7 +66,7 @@ void CreateHuffmanTree(HuffmanTree *ht, int *w, int n) {
 
 void OutputHuffman(HuffmanTree HT, int m) {
     if (m) {
-        cout << HT[m].weight <<endl;
+        printf("%d ",HT[m].weight);
         OutputHuffman(HT, HT[m].LChild);
         OutputHuffman(HT, HT[m].RChild);
     }
@@ -92,6 +91,7 @@ void CreateHuffmanCode(HuffmanTree ht, HuffmanCode *hc, int n) {
         strcpy(hc[i], &temp[start]);
     }
     free(temp);
+    cout<<endl;
     for (int j = 1; j <= n; ++j) {
         cout << ht[j].weight << "的编码是：" << hc[j] << endl;
     }

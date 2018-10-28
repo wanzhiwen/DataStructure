@@ -17,9 +17,9 @@ typedef struct {
 } HTNode, *HuffmanTree;
 
 //选择两个权值最小的节点
-void Select(HuffmanTree *ht, int n, int *s1, int *s2);
+void Select(HuffmanTree ht, int n, int *s1, int *s2);
 
-//构建哈夫曼二叉树
+//构建哈夫曼二叉树，注意w的的长度要比n大一
 void CreateHuffmanTree(HuffmanTree *ht, int *w, int n);
 
 //先序输出构建出来的哈夫曼二叉树

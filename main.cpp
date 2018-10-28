@@ -31,10 +31,10 @@ int main() {
 
     HuffmanTree huffmanTree;
     HuffmanCode hc;
-    int w[6]={0,1,2,3,4,5};
-    CreateHuffmanTree(&huffmanTree, w, 5);
-    OutputHuffman(huffmanTree,9);
-    CreateHuffmanCode(huffmanTree,&hc,5);
+    int w[10]={0,1,2,3,4,5,6,7,8,9};
+    CreateHuffmanTree(&huffmanTree, w, 9);
+    OutputHuffman(huffmanTree,17);//m=2n-1
+    CreateHuffmanCode(huffmanTree,&hc,9);
 
     return 0;
 }
