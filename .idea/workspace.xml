@@ -11,13 +11,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbab585d-c99c-4db8-be53-7688a3d4ba25" name="Default" comment="哈夫曼算法编写中.......">
+    <list default="true" id="bbab585d-c99c-4db8-be53-7688a3d4ba25" name="Default" comment="哈夫曼编码完成">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree/HuffmanTree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/HuffmanTree.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree/HuffmanTree.h" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/HuffmanTree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructure.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructure.dir/main.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructure.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructure.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/DataStructure.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/DataStructure.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,11 +28,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+            <state relative-caret-position="228">
+              <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="12" />
               <folding>
                 <element signature="e#22#41#0" expanded="true" />
               </folding>
@@ -42,10 +40,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HuffmanTree.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HuffmanTree.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tree/HuffmanTree.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
+            <state relative-caret-position="247">
               <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
             </state>
           </provider>
@@ -89,6 +87,8 @@
         <option value="$PROJECT_DIR$/Tree/BiTree.h" />
         <option value="$PROJECT_DIR$/Tree/HuffmanTree.h" />
         <option value="$PROJECT_DIR$/Tree/HuffmanTree.cpp" />
+        <option value="$PROJECT_DIR$/Tree/BST.h" />
+        <option value="$PROJECT_DIR$/Tree/BST.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
@@ -120,6 +120,11 @@
             <path>
               <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
@@ -200,7 +205,7 @@
       <workItem from="1540541577106" duration="10245000" />
       <workItem from="1540605236106" duration="20713000" />
       <workItem from="1540691570381" duration="2199000" />
-      <workItem from="1540706645928" duration="1495000" />
+      <workItem from="1540706645928" duration="2401000" />
     </task>
     <task id="LOCAL-00001" summary="增加双链表基本操作和单链表的一些补充">
       <created>1539535766125</created>
@@ -307,11 +312,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540694222856</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="哈夫曼编码完成">
+      <created>1540708180849</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1540708180849</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113422000" />
+    <option name="totallyTimeSpent" value="114328000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="909" y="-1080" width="1294" height="1057" extended-state="0" />
@@ -408,7 +420,8 @@
     <MESSAGE value="完善顺序队列，完成二叉树的四种遍历算法" />
     <MESSAGE value="哈夫曼算法编写中......" />
     <MESSAGE value="哈夫曼算法编写中......." />
-    <option name="LAST_COMMIT_MESSAGE" value="哈夫曼算法编写中......." />
+    <MESSAGE value="哈夫曼编码完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="哈夫曼编码完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -416,20 +429,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LinearList/DuLinkList.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="52" selection-start-line="20" selection-end-line="20" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LinearList/LinkedList.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LinearList/DuLinkList.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="912">
@@ -773,16 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
-          <folding>
-            <element signature="e#22#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tree/HuffmanTree.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="588">
@@ -793,10 +782,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Tree/BST.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tree/BST.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4104">
+          <caret line="216" column="1" lean-forward="true" selection-start-line="216" selection-start-column="1" selection-end-line="216" selection-end-column="1" />
+          <folding>
+            <element signature="e#42#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Tree/HuffmanTree.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
+        <state relative-caret-position="247">
           <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="12" />
+          <folding>
+            <element signature="e#22#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
