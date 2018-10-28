@@ -13,34 +13,34 @@ void Select(HuffmanTree *ht, int n, int *s1, int *s2) {
             min = i;
             break;
         }
-    }//éšæœºé€‰å–ä¸€ä¸ªæ²¡æœ‰åŒäº²èŠ‚ç‚¹çš„èŠ‚ç‚¹
+    }//Ëæ»úÑ¡È¡Ò»¸öÃ»ÓĞË«Ç×½ÚµãµÄ½Úµã
     for (int j = 1; j <= n; ++j) {
         if ((*ht)[j].parent == 0) {
             if ((*ht)[j].weight < (*ht)[min].weight) {
                 min = j;
             }
         }
-    }//æ¯”è¾ƒæ²¡æœ‰åŒäº²èŠ‚ç‚¹çš„æ‰€æœ‰èŠ‚ç‚¹ä¸­æƒé‡æœ€å°çš„èŠ‚ç‚¹
-    *s1 = min;//é€‰å–åˆ°çš„æƒé‡æœ€å°çš„èŠ‚ç‚¹
+    }//±È½ÏÃ»ÓĞË«Ç×½ÚµãµÄËùÓĞ½ÚµãÖĞÈ¨ÖØ×îĞ¡µÄ½Úµã
+    *s1 = min;//Ñ¡È¡µ½µÄÈ¨ÖØ×îĞ¡µÄ½Úµã
     for (int i = 1; i <= n; ++i) {
         if ((*ht)[i].parent == 0 && i != (*s1)) {
             min = i;
             break;
         }
-    }//éšæœºé€‰å–ä¸€ä¸ªé™¤ç¬¬ä¸€æ¬¡é€‰å–çš„èŠ‚ç‚¹å¤–æ²¡æœ‰åŒäº²èŠ‚ç‚¹çš„èŠ‚ç‚¹
+    }//Ëæ»úÑ¡È¡Ò»¸ö³ıµÚÒ»´ÎÑ¡È¡µÄ½ÚµãÍâÃ»ÓĞË«Ç×½ÚµãµÄ½Úµã
     for (int j = 1; j <= n; ++j) {
         if ((*ht)[j].parent == 0 && j != (*s1)) {
             if ((*ht)[j].weight < (*ht)[min].weight) {
                 min = j;
             }
         }
-    }//æ¯”è¾ƒé™¤ç¬¬ä¸€æ¬¡é€‰å–çš„èŠ‚ç‚¹å¤–æ²¡æœ‰åŒäº²èŠ‚ç‚¹çš„æ‰€æœ‰èŠ‚ç‚¹ä¸­æƒé‡æœ€å°çš„èŠ‚ç‚¹
+    }//±È½Ï³ıµÚÒ»´ÎÑ¡È¡µÄ½ÚµãÍâÃ»ÓĞË«Ç×½ÚµãµÄËùÓĞ½ÚµãÖĞÈ¨ÖØ×îĞ¡µÄ½Úµã
     *s2 = min;
 }
 
 void CreateHuffmanTree(HuffmanTree *ht, int *w, int n) {
     int s1, s2, m;
-    m = 2 * n - 1;//æ€»èŠ‚ç‚¹æ•°
+    m = 2 * n - 1;//×Ü½ÚµãÊı
     *ht = (HuffmanTree) malloc((m + 1) * sizeof(HTNode));
     Select(ht, n, &s1, &s2);
     for (int i = 1; i <= n; ++i) {
@@ -48,13 +48,13 @@ void CreateHuffmanTree(HuffmanTree *ht, int *w, int n) {
         (*ht)[i].parent = 0;
         (*ht)[i].LChild = 0;
         (*ht)[i].RChild = 0;
-    }//å¶å­èŠ‚ç‚¹åˆå§‹åŒ–
+    }//Ò¶×Ó½Úµã³õÊ¼»¯
     for (int j = n + 1; j <= m; ++j) {
         (*ht)[j].weight = 0;
         (*ht)[j].parent = 0;
         (*ht)[j].LChild = 0;
         (*ht)[j].RChild = 0;
-    }//éå¶å­èŠ‚ç‚¹åˆå§‹åŒ–
+    }//·ÇÒ¶×Ó½Úµã³õÊ¼»¯
     for (int k = n + 1; k <= m; ++k) {
         Select(ht, k-1 , &s1, &s2);
         (*ht)[s1].parent = k;
@@ -93,6 +93,6 @@ void CreateHuffmanCode(HuffmanTree ht, HuffmanCode *hc, int n) {
     }
     free(temp);
     for (int j = 1; j <= n; ++j) {
-        cout << ht[j].weight << "çš„ç¼–ç æ˜¯ï¼š" << hc[j] << endl;
+        cout << ht[j].weight << "µÄ±àÂëÊÇ£º" << hc[j] << endl;
     }
 }

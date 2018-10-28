@@ -29,12 +29,12 @@ int main() {
 //    PrintBiTree(bt1,2);
 
 
-//    HuffmanTree huffmanTree;
-//    HuffmanCode hc;
-//    int w[6]={0,1,2,3,4,5};
-//    CreateHuffmanTree(&huffmanTree, w, 5);
-//    OutputHuffman(huffmanTree,9);
-//    CreateHuffmanCode(huffmanTree,&hc,5);
-    cout<<"看"<<endl;
+    HuffmanTree huffmanTree;
+    HuffmanCode hc;
+    int w[6]={0,1,2,3,4,5};
+    CreateHuffmanTree(&huffmanTree, w, 5);
+    OutputHuffman(huffmanTree,9);
+    CreateHuffmanCode(huffmanTree,&hc,5);
+
     return 0;
 }
