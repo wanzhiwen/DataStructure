@@ -130,6 +130,12 @@
 		<Unit filename="D:/Clion/Projects/DataStructure/Tree/HuffmanTree.h">
 			<Option target="DataStructure"/>
 		</Unit>
+		<Unit filename="D:/Clion/Projects/DataStructure/Tree/ThreadTree.cpp">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Clion/Projects/DataStructure/Tree/ThreadTree.h">
+			<Option target="DataStructure"/>
+		</Unit>
 		<Unit filename="D:/Clion/Projects/DataStructure/main.cpp">
 			<Option target="DataStructure"/>
 		</Unit>

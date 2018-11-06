@@ -55,18 +55,18 @@ void CreateHuffmanTree(HuffmanTree *ht, int *w, int n) {
         (*ht)[j].RChild = 0;
     }//非叶子节点初始化
     for (int k = n + 1; k <= m; ++k) {
-        Select(*ht, k-1 , &s1, &s2);
+        Select(*ht, k - 1, &s1, &s2);
         (*ht)[s1].parent = k;
         (*ht)[s2].parent = k;
         (*ht)[k].LChild = s1;
         (*ht)[k].RChild = s2;
-        (*ht)[k].weight=(*ht)[s1].weight+(*ht)[s2].weight;
+        (*ht)[k].weight = (*ht)[s1].weight + (*ht)[s2].weight;
     }
 }
 
 void OutputHuffman(HuffmanTree HT, int m) {
     if (m) {
-        printf("%d ",HT[m].weight);
+        printf("%d ", HT[m].weight);
         OutputHuffman(HT, HT[m].LChild);
         OutputHuffman(HT, HT[m].RChild);
     }
@@ -91,8 +91,20 @@ void CreateHuffmanCode(HuffmanTree ht, HuffmanCode *hc, int n) {
         strcpy(hc[i], &temp[start]);
     }
     free(temp);
-    cout<<endl;
+    cout << endl;
     for (int j = 1; j <= n; ++j) {
         cout << ht[j].weight << "的编码是：" << hc[j] << endl;
     }
 }
+
+//int main() {
+//
+//    HuffmanTree huffmanTree;
+//    HuffmanCode hc;
+//    int w[10] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+//    CreateHuffmanTree(&huffmanTree, w, 9);
+//    OutputHuffman(huffmanTree, 17);//m=2n-1
+//    CreateHuffmanCode(huffmanTree, &hc, 9);
+//
+//    return 0;
+//}

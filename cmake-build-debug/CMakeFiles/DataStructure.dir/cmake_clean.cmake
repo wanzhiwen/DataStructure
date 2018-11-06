@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/DataStructure.dir/LinearList/SeqQueue.cpp.obj"
   "CMakeFiles/DataStructure.dir/Tree/BiTree.cpp.obj"
   "CMakeFiles/DataStructure.dir/Tree/HuffmanTree.cpp.obj"
+  "CMakeFiles/DataStructure.dir/Tree/ThreadTree.cpp.obj"
   "DataStructure.pdb"
   "DataStructure.exe"
   "DataStructure.exe.manifest"
