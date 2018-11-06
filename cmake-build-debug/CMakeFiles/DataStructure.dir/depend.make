@@ -31,6 +31,9 @@ CMakeFiles/DataStructure.dir/Tree/BiTree.cpp.obj: ../Tree/BiTree.h
 CMakeFiles/DataStructure.dir/Tree/HuffmanTree.cpp.obj: ../Tree/HuffmanTree.cpp
 CMakeFiles/DataStructure.dir/Tree/HuffmanTree.cpp.obj: ../Tree/HuffmanTree.h
 
+CMakeFiles/DataStructure.dir/Tree/ThreadTree.cpp.obj: ../Tree/ThreadTree.cpp
+CMakeFiles/DataStructure.dir/Tree/ThreadTree.cpp.obj: ../Tree/ThreadTree.h
+
 CMakeFiles/DataStructure.dir/main.cpp.obj: ../LinearList/DuLinkList.h
 CMakeFiles/DataStructure.dir/main.cpp.obj: ../LinearList/LinkStack.h
 CMakeFiles/DataStructure.dir/main.cpp.obj: ../LinearList/LinkedList.h

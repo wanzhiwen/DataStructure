@@ -82,6 +82,16 @@ D:/Clion/Projects/DataStructure/Tree/HuffmanTree.h
 iostream
 -
 
+D:/Clion/Projects/DataStructure/Tree/ThreadTree.cpp
+cstdio
+-
+ThreadTree.h
+D:/Clion/Projects/DataStructure/Tree/ThreadTree.h
+iostream
+D:/Clion/Projects/DataStructure/Tree/iostream
+
+D:/Clion/Projects/DataStructure/Tree/ThreadTree.h
+
 D:/Clion/Projects/DataStructure/main.cpp
 iostream
 -
