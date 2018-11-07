@@ -24,6 +24,9 @@ CMakeFiles/DataStructure.dir/LinearList/SeqStack.cpp.obj: ../LinearList/SeqList.
 CMakeFiles/DataStructure.dir/LinearList/SeqStack.cpp.obj: ../LinearList/SeqStack.cpp
 CMakeFiles/DataStructure.dir/LinearList/SeqStack.cpp.obj: ../LinearList/SeqStack.h
 
+CMakeFiles/DataStructure.dir/Search/AVL.cpp.obj: ../Search/AVL.cpp
+CMakeFiles/DataStructure.dir/Search/AVL.cpp.obj: ../Search/AVL.h
+
 CMakeFiles/DataStructure.dir/Search/BST.cpp.obj: ../Search/BST.cpp
 CMakeFiles/DataStructure.dir/Search/BST.cpp.obj: ../Search/BST.h
 
