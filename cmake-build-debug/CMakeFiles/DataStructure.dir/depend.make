@@ -24,6 +24,9 @@ CMakeFiles/DataStructure.dir/LinearList/SeqStack.cpp.obj: ../LinearList/SeqList.
 CMakeFiles/DataStructure.dir/LinearList/SeqStack.cpp.obj: ../LinearList/SeqStack.cpp
 CMakeFiles/DataStructure.dir/LinearList/SeqStack.cpp.obj: ../LinearList/SeqStack.h
 
+CMakeFiles/DataStructure.dir/Search/BST.cpp.obj: ../Search/BST.cpp
+CMakeFiles/DataStructure.dir/Search/BST.cpp.obj: ../Search/BST.h
+
 CMakeFiles/DataStructure.dir/Tree/BiTree.cpp.obj: ../LinearList/SeqQueue.h
 CMakeFiles/DataStructure.dir/Tree/BiTree.cpp.obj: ../Tree/BiTree.cpp
 CMakeFiles/DataStructure.dir/Tree/BiTree.cpp.obj: ../Tree/BiTree.h
