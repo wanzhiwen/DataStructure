@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/DataStructure.dir/Tree/ThreadTree.cpp.obj"
   "CMakeFiles/DataStructure.dir/Search/BST.cpp.obj"
   "CMakeFiles/DataStructure.dir/Search/AVL.cpp.obj"
+  "CMakeFiles/DataStructure.dir/Sort/Heap_top_k.cpp.obj"
+  "CMakeFiles/DataStructure.dir/Graph/Dijkstra.cpp.obj"
   "DataStructure.pdb"
   "DataStructure.exe"
   "DataStructure.exe.manifest"

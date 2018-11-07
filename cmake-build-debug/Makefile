@@ -122,6 +122,33 @@ DataStructure/fast:
 	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/build
 .PHONY : DataStructure/fast
 
+Graph/Dijkstra.obj: Graph/Dijkstra.cpp.obj
+
+.PHONY : Graph/Dijkstra.obj
+
+# target to build an object file
+Graph/Dijkstra.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Graph/Dijkstra.cpp.obj
+.PHONY : Graph/Dijkstra.cpp.obj
+
+Graph/Dijkstra.i: Graph/Dijkstra.cpp.i
+
+.PHONY : Graph/Dijkstra.i
+
+# target to preprocess a source file
+Graph/Dijkstra.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Graph/Dijkstra.cpp.i
+.PHONY : Graph/Dijkstra.cpp.i
+
+Graph/Dijkstra.s: Graph/Dijkstra.cpp.s
+
+.PHONY : Graph/Dijkstra.s
+
+# target to generate assembly for a file
+Graph/Dijkstra.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Graph/Dijkstra.cpp.s
+.PHONY : Graph/Dijkstra.cpp.s
+
 LinearList/DuLinkList.obj: LinearList/DuLinkList.cpp.obj
 
 .PHONY : LinearList/DuLinkList.obj
@@ -338,6 +365,33 @@ Search/BST.cpp.s:
 	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/BST.cpp.s
 .PHONY : Search/BST.cpp.s
 
+Sort/Heap_top_k.obj: Sort/Heap_top_k.cpp.obj
+
+.PHONY : Sort/Heap_top_k.obj
+
+# target to build an object file
+Sort/Heap_top_k.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Heap_top_k.cpp.obj
+.PHONY : Sort/Heap_top_k.cpp.obj
+
+Sort/Heap_top_k.i: Sort/Heap_top_k.cpp.i
+
+.PHONY : Sort/Heap_top_k.i
+
+# target to preprocess a source file
+Sort/Heap_top_k.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Heap_top_k.cpp.i
+.PHONY : Sort/Heap_top_k.cpp.i
+
+Sort/Heap_top_k.s: Sort/Heap_top_k.cpp.s
+
+.PHONY : Sort/Heap_top_k.s
+
+# target to generate assembly for a file
+Sort/Heap_top_k.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Heap_top_k.cpp.s
+.PHONY : Sort/Heap_top_k.cpp.s
+
 Tree/BiTree.obj: Tree/BiTree.cpp.obj
 
 .PHONY : Tree/BiTree.obj
@@ -455,6 +509,9 @@ help:
 	@echo ... DataStructure
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Graph/Dijkstra.obj
+	@echo ... Graph/Dijkstra.i
+	@echo ... Graph/Dijkstra.s
 	@echo ... LinearList/DuLinkList.obj
 	@echo ... LinearList/DuLinkList.i
 	@echo ... LinearList/DuLinkList.s
@@ -479,6 +536,9 @@ help:
 	@echo ... Search/BST.obj
 	@echo ... Search/BST.i
 	@echo ... Search/BST.s
+	@echo ... Sort/Heap_top_k.obj
+	@echo ... Sort/Heap_top_k.i
+	@echo ... Sort/Heap_top_k.s
 	@echo ... Tree/BiTree.obj
 	@echo ... Tree/BiTree.i
 	@echo ... Tree/BiTree.s

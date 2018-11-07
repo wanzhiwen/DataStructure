@@ -344,6 +344,54 @@ CMakeFiles/DataStructure.dir/Search/AVL.cpp.obj.provides: CMakeFiles/DataStructu
 CMakeFiles/DataStructure.dir/Search/AVL.cpp.obj.provides.build: CMakeFiles/DataStructure.dir/Search/AVL.cpp.obj
 
 
+CMakeFiles/DataStructure.dir/Sort/Heap_top_k.cpp.obj: CMakeFiles/DataStructure.dir/flags.make
+CMakeFiles/DataStructure.dir/Sort/Heap_top_k.cpp.obj: ../Sort/Heap_top_k.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Clion\Projects\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/DataStructure.dir/Sort/Heap_top_k.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructure.dir\Sort\Heap_top_k.cpp.obj -c D:\Clion\Projects\DataStructure\Sort\Heap_top_k.cpp
+
+CMakeFiles/DataStructure.dir/Sort/Heap_top_k.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructure.dir/Sort/Heap_top_k.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Clion\Projects\DataStructure\Sort\Heap_top_k.cpp > CMakeFiles\DataStructure.dir\Sort\Heap_top_k.cpp.i
+
+CMakeFiles/DataStructure.dir/Sort/Heap_top_k.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure.dir/Sort/Heap_top_k.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Clion\Projects\DataStructure\Sort\Heap_top_k.cpp -o CMakeFiles\DataStructure.dir\Sort\Heap_top_k.cpp.s
+
+CMakeFiles/DataStructure.dir/Sort/Heap_top_k.cpp.obj.requires:
+
+.PHONY : CMakeFiles/DataStructure.dir/Sort/Heap_top_k.cpp.obj.requires
+
+CMakeFiles/DataStructure.dir/Sort/Heap_top_k.cpp.obj.provides: CMakeFiles/DataStructure.dir/Sort/Heap_top_k.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Heap_top_k.cpp.obj.provides.build
+.PHONY : CMakeFiles/DataStructure.dir/Sort/Heap_top_k.cpp.obj.provides
+
+CMakeFiles/DataStructure.dir/Sort/Heap_top_k.cpp.obj.provides.build: CMakeFiles/DataStructure.dir/Sort/Heap_top_k.cpp.obj
+
+
+CMakeFiles/DataStructure.dir/Graph/Dijkstra.cpp.obj: CMakeFiles/DataStructure.dir/flags.make
+CMakeFiles/DataStructure.dir/Graph/Dijkstra.cpp.obj: ../Graph/Dijkstra.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Clion\Projects\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/DataStructure.dir/Graph/Dijkstra.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructure.dir\Graph\Dijkstra.cpp.obj -c D:\Clion\Projects\DataStructure\Graph\Dijkstra.cpp
+
+CMakeFiles/DataStructure.dir/Graph/Dijkstra.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructure.dir/Graph/Dijkstra.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Clion\Projects\DataStructure\Graph\Dijkstra.cpp > CMakeFiles\DataStructure.dir\Graph\Dijkstra.cpp.i
+
+CMakeFiles/DataStructure.dir/Graph/Dijkstra.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure.dir/Graph/Dijkstra.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Clion\Projects\DataStructure\Graph\Dijkstra.cpp -o CMakeFiles\DataStructure.dir\Graph\Dijkstra.cpp.s
+
+CMakeFiles/DataStructure.dir/Graph/Dijkstra.cpp.obj.requires:
+
+.PHONY : CMakeFiles/DataStructure.dir/Graph/Dijkstra.cpp.obj.requires
+
+CMakeFiles/DataStructure.dir/Graph/Dijkstra.cpp.obj.provides: CMakeFiles/DataStructure.dir/Graph/Dijkstra.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Graph/Dijkstra.cpp.obj.provides.build
+.PHONY : CMakeFiles/DataStructure.dir/Graph/Dijkstra.cpp.obj.provides
+
+CMakeFiles/DataStructure.dir/Graph/Dijkstra.cpp.obj.provides.build: CMakeFiles/DataStructure.dir/Graph/Dijkstra.cpp.obj
+
+
 # Object files for target DataStructure
 DataStructure_OBJECTS = \
 "CMakeFiles/DataStructure.dir/main.cpp.obj" \
@@ -357,7 +405,9 @@ DataStructure_OBJECTS = \
 "CMakeFiles/DataStructure.dir/Tree/HuffmanTree.cpp.obj" \
 "CMakeFiles/DataStructure.dir/Tree/ThreadTree.cpp.obj" \
 "CMakeFiles/DataStructure.dir/Search/BST.cpp.obj" \
-"CMakeFiles/DataStructure.dir/Search/AVL.cpp.obj"
+"CMakeFiles/DataStructure.dir/Search/AVL.cpp.obj" \
+"CMakeFiles/DataStructure.dir/Sort/Heap_top_k.cpp.obj" \
+"CMakeFiles/DataStructure.dir/Graph/Dijkstra.cpp.obj"
 
 # External object files for target DataStructure
 DataStructure_EXTERNAL_OBJECTS =
@@ -374,11 +424,13 @@ DataStructure.exe: CMakeFiles/DataStructure.dir/Tree/HuffmanTree.cpp.obj
 DataStructure.exe: CMakeFiles/DataStructure.dir/Tree/ThreadTree.cpp.obj
 DataStructure.exe: CMakeFiles/DataStructure.dir/Search/BST.cpp.obj
 DataStructure.exe: CMakeFiles/DataStructure.dir/Search/AVL.cpp.obj
+DataStructure.exe: CMakeFiles/DataStructure.dir/Sort/Heap_top_k.cpp.obj
+DataStructure.exe: CMakeFiles/DataStructure.dir/Graph/Dijkstra.cpp.obj
 DataStructure.exe: CMakeFiles/DataStructure.dir/build.make
 DataStructure.exe: CMakeFiles/DataStructure.dir/linklibs.rsp
 DataStructure.exe: CMakeFiles/DataStructure.dir/objects1.rsp
 DataStructure.exe: CMakeFiles/DataStructure.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Clion\Projects\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable DataStructure.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Clion\Projects\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable DataStructure.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DataStructure.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -398,6 +450,8 @@ CMakeFiles/DataStructure.dir/requires: CMakeFiles/DataStructure.dir/Tree/Huffman
 CMakeFiles/DataStructure.dir/requires: CMakeFiles/DataStructure.dir/Tree/ThreadTree.cpp.obj.requires
 CMakeFiles/DataStructure.dir/requires: CMakeFiles/DataStructure.dir/Search/BST.cpp.obj.requires
 CMakeFiles/DataStructure.dir/requires: CMakeFiles/DataStructure.dir/Search/AVL.cpp.obj.requires
+CMakeFiles/DataStructure.dir/requires: CMakeFiles/DataStructure.dir/Sort/Heap_top_k.cpp.obj.requires
+CMakeFiles/DataStructure.dir/requires: CMakeFiles/DataStructure.dir/Graph/Dijkstra.cpp.obj.requires
 
 .PHONY : CMakeFiles/DataStructure.dir/requires
 

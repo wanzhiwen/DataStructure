@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/Clion/Projects/DataStructure/Graph/Dijkstra.cpp">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Clion/Projects/DataStructure/Graph/Dijkstra.h">
+			<Option target="DataStructure"/>
+		</Unit>
 		<Unit filename="D:/Clion/Projects/DataStructure/LinearList/DuLinkList.cpp">
 			<Option target="DataStructure"/>
 		</Unit>
@@ -128,6 +134,12 @@
 			<Option target="DataStructure"/>
 		</Unit>
 		<Unit filename="D:/Clion/Projects/DataStructure/Search/BST.h">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Clion/Projects/DataStructure/Sort/Heap_top_k.cpp">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Clion/Projects/DataStructure/Sort/Heap_top_k.h">
 			<Option target="DataStructure"/>
 		</Unit>
 		<Unit filename="D:/Clion/Projects/DataStructure/Tree/BiTree.cpp">
