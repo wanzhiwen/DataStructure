@@ -284,6 +284,33 @@ LinearList/SeqStack.cpp.s:
 	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/SeqStack.cpp.s
 .PHONY : LinearList/SeqStack.cpp.s
 
+Search/BST.obj: Search/BST.cpp.obj
+
+.PHONY : Search/BST.obj
+
+# target to build an object file
+Search/BST.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/BST.cpp.obj
+.PHONY : Search/BST.cpp.obj
+
+Search/BST.i: Search/BST.cpp.i
+
+.PHONY : Search/BST.i
+
+# target to preprocess a source file
+Search/BST.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/BST.cpp.i
+.PHONY : Search/BST.cpp.i
+
+Search/BST.s: Search/BST.cpp.s
+
+.PHONY : Search/BST.s
+
+# target to generate assembly for a file
+Search/BST.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/BST.cpp.s
+.PHONY : Search/BST.cpp.s
+
 Tree/BiTree.obj: Tree/BiTree.cpp.obj
 
 .PHONY : Tree/BiTree.obj
@@ -419,6 +446,9 @@ help:
 	@echo ... LinearList/SeqStack.obj
 	@echo ... LinearList/SeqStack.i
 	@echo ... LinearList/SeqStack.s
+	@echo ... Search/BST.obj
+	@echo ... Search/BST.i
+	@echo ... Search/BST.s
 	@echo ... Tree/BiTree.obj
 	@echo ... Tree/BiTree.i
 	@echo ... Tree/BiTree.s

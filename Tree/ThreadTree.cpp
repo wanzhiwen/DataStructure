@@ -107,20 +107,20 @@ void InsertNode(BiTNode *p, BiTNode *r) {
     }
 }
 
-int main() {
-    //abd..e..cf..g..
-    BiTree bt;
-    CreateBiTree(&bt);
-    InitThread(bt);
-    TInOrder(bt);
-    BiTNode *btNew = (BiTree) malloc(sizeof(BiTNode));
-    btNew->data='x';
-    InsertNode(bt, btNew);
-    printf("\n");
-    TInOrder(bt);
-    BiTNode * btPre=InPre(bt);
-    printf("\n%c",btPre->data);
-
-}
+//int main() {
+//    //abd..e..cf..g..
+//    BiTree bt;
+//    CreateBiTree(&bt);
+//    InitThread(bt);
+//    TInOrder(bt);
+//    BiTNode *btNew = (BiTree) malloc(sizeof(BiTNode));
+//    btNew->data='x';
+//    InsertNode(bt, btNew);
+//    printf("\n");
+//    TInOrder(bt);
+//    BiTNode * btPre=InPre(bt);
+//    printf("\n%c",btPre->data);
+//
+//}
 
 
