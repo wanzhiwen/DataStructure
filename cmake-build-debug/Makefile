@@ -284,6 +284,33 @@ LinearList/SeqStack.cpp.s:
 	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/SeqStack.cpp.s
 .PHONY : LinearList/SeqStack.cpp.s
 
+Search/AVL.obj: Search/AVL.cpp.obj
+
+.PHONY : Search/AVL.obj
+
+# target to build an object file
+Search/AVL.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/AVL.cpp.obj
+.PHONY : Search/AVL.cpp.obj
+
+Search/AVL.i: Search/AVL.cpp.i
+
+.PHONY : Search/AVL.i
+
+# target to preprocess a source file
+Search/AVL.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/AVL.cpp.i
+.PHONY : Search/AVL.cpp.i
+
+Search/AVL.s: Search/AVL.cpp.s
+
+.PHONY : Search/AVL.s
+
+# target to generate assembly for a file
+Search/AVL.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/AVL.cpp.s
+.PHONY : Search/AVL.cpp.s
+
 Search/BST.obj: Search/BST.cpp.obj
 
 .PHONY : Search/BST.obj
@@ -446,6 +473,9 @@ help:
 	@echo ... LinearList/SeqStack.obj
 	@echo ... LinearList/SeqStack.i
 	@echo ... LinearList/SeqStack.s
+	@echo ... Search/AVL.obj
+	@echo ... Search/AVL.i
+	@echo ... Search/AVL.s
 	@echo ... Search/BST.obj
 	@echo ... Search/BST.i
 	@echo ... Search/BST.s
