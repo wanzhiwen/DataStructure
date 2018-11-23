@@ -392,6 +392,60 @@ Sort/Heap_top_k.cpp.s:
 	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Heap_top_k.cpp.s
 .PHONY : Sort/Heap_top_k.cpp.s
 
+Sort/QuickSort.obj: Sort/QuickSort.cpp.obj
+
+.PHONY : Sort/QuickSort.obj
+
+# target to build an object file
+Sort/QuickSort.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/QuickSort.cpp.obj
+.PHONY : Sort/QuickSort.cpp.obj
+
+Sort/QuickSort.i: Sort/QuickSort.cpp.i
+
+.PHONY : Sort/QuickSort.i
+
+# target to preprocess a source file
+Sort/QuickSort.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/QuickSort.cpp.i
+.PHONY : Sort/QuickSort.cpp.i
+
+Sort/QuickSort.s: Sort/QuickSort.cpp.s
+
+.PHONY : Sort/QuickSort.s
+
+# target to generate assembly for a file
+Sort/QuickSort.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/QuickSort.cpp.s
+.PHONY : Sort/QuickSort.cpp.s
+
+Sort/ShellSort.obj: Sort/ShellSort.cpp.obj
+
+.PHONY : Sort/ShellSort.obj
+
+# target to build an object file
+Sort/ShellSort.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/ShellSort.cpp.obj
+.PHONY : Sort/ShellSort.cpp.obj
+
+Sort/ShellSort.i: Sort/ShellSort.cpp.i
+
+.PHONY : Sort/ShellSort.i
+
+# target to preprocess a source file
+Sort/ShellSort.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/ShellSort.cpp.i
+.PHONY : Sort/ShellSort.cpp.i
+
+Sort/ShellSort.s: Sort/ShellSort.cpp.s
+
+.PHONY : Sort/ShellSort.s
+
+# target to generate assembly for a file
+Sort/ShellSort.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/ShellSort.cpp.s
+.PHONY : Sort/ShellSort.cpp.s
+
 Tree/BiTree.obj: Tree/BiTree.cpp.obj
 
 .PHONY : Tree/BiTree.obj
@@ -539,6 +593,12 @@ help:
 	@echo ... Sort/Heap_top_k.obj
 	@echo ... Sort/Heap_top_k.i
 	@echo ... Sort/Heap_top_k.s
+	@echo ... Sort/QuickSort.obj
+	@echo ... Sort/QuickSort.i
+	@echo ... Sort/QuickSort.s
+	@echo ... Sort/ShellSort.obj
+	@echo ... Sort/ShellSort.i
+	@echo ... Sort/ShellSort.s
 	@echo ... Tree/BiTree.obj
 	@echo ... Tree/BiTree.i
 	@echo ... Tree/BiTree.s

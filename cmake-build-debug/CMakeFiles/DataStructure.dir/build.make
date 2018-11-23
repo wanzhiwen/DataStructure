@@ -392,6 +392,54 @@ CMakeFiles/DataStructure.dir/Graph/Dijkstra.cpp.obj.provides: CMakeFiles/DataStr
 CMakeFiles/DataStructure.dir/Graph/Dijkstra.cpp.obj.provides.build: CMakeFiles/DataStructure.dir/Graph/Dijkstra.cpp.obj
 
 
+CMakeFiles/DataStructure.dir/Sort/ShellSort.cpp.obj: CMakeFiles/DataStructure.dir/flags.make
+CMakeFiles/DataStructure.dir/Sort/ShellSort.cpp.obj: ../Sort/ShellSort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Clion\Projects\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/DataStructure.dir/Sort/ShellSort.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructure.dir\Sort\ShellSort.cpp.obj -c D:\Clion\Projects\DataStructure\Sort\ShellSort.cpp
+
+CMakeFiles/DataStructure.dir/Sort/ShellSort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructure.dir/Sort/ShellSort.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Clion\Projects\DataStructure\Sort\ShellSort.cpp > CMakeFiles\DataStructure.dir\Sort\ShellSort.cpp.i
+
+CMakeFiles/DataStructure.dir/Sort/ShellSort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure.dir/Sort/ShellSort.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Clion\Projects\DataStructure\Sort\ShellSort.cpp -o CMakeFiles\DataStructure.dir\Sort\ShellSort.cpp.s
+
+CMakeFiles/DataStructure.dir/Sort/ShellSort.cpp.obj.requires:
+
+.PHONY : CMakeFiles/DataStructure.dir/Sort/ShellSort.cpp.obj.requires
+
+CMakeFiles/DataStructure.dir/Sort/ShellSort.cpp.obj.provides: CMakeFiles/DataStructure.dir/Sort/ShellSort.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/ShellSort.cpp.obj.provides.build
+.PHONY : CMakeFiles/DataStructure.dir/Sort/ShellSort.cpp.obj.provides
+
+CMakeFiles/DataStructure.dir/Sort/ShellSort.cpp.obj.provides.build: CMakeFiles/DataStructure.dir/Sort/ShellSort.cpp.obj
+
+
+CMakeFiles/DataStructure.dir/Sort/QuickSort.cpp.obj: CMakeFiles/DataStructure.dir/flags.make
+CMakeFiles/DataStructure.dir/Sort/QuickSort.cpp.obj: ../Sort/QuickSort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Clion\Projects\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/DataStructure.dir/Sort/QuickSort.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructure.dir\Sort\QuickSort.cpp.obj -c D:\Clion\Projects\DataStructure\Sort\QuickSort.cpp
+
+CMakeFiles/DataStructure.dir/Sort/QuickSort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructure.dir/Sort/QuickSort.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Clion\Projects\DataStructure\Sort\QuickSort.cpp > CMakeFiles\DataStructure.dir\Sort\QuickSort.cpp.i
+
+CMakeFiles/DataStructure.dir/Sort/QuickSort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure.dir/Sort/QuickSort.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Clion\Projects\DataStructure\Sort\QuickSort.cpp -o CMakeFiles\DataStructure.dir\Sort\QuickSort.cpp.s
+
+CMakeFiles/DataStructure.dir/Sort/QuickSort.cpp.obj.requires:
+
+.PHONY : CMakeFiles/DataStructure.dir/Sort/QuickSort.cpp.obj.requires
+
+CMakeFiles/DataStructure.dir/Sort/QuickSort.cpp.obj.provides: CMakeFiles/DataStructure.dir/Sort/QuickSort.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/QuickSort.cpp.obj.provides.build
+.PHONY : CMakeFiles/DataStructure.dir/Sort/QuickSort.cpp.obj.provides
+
+CMakeFiles/DataStructure.dir/Sort/QuickSort.cpp.obj.provides.build: CMakeFiles/DataStructure.dir/Sort/QuickSort.cpp.obj
+
+
 # Object files for target DataStructure
 DataStructure_OBJECTS = \
 "CMakeFiles/DataStructure.dir/main.cpp.obj" \
@@ -407,7 +455,9 @@ DataStructure_OBJECTS = \
 "CMakeFiles/DataStructure.dir/Search/BST.cpp.obj" \
 "CMakeFiles/DataStructure.dir/Search/AVL.cpp.obj" \
 "CMakeFiles/DataStructure.dir/Sort/Heap_top_k.cpp.obj" \
-"CMakeFiles/DataStructure.dir/Graph/Dijkstra.cpp.obj"
+"CMakeFiles/DataStructure.dir/Graph/Dijkstra.cpp.obj" \
+"CMakeFiles/DataStructure.dir/Sort/ShellSort.cpp.obj" \
+"CMakeFiles/DataStructure.dir/Sort/QuickSort.cpp.obj"
 
 # External object files for target DataStructure
 DataStructure_EXTERNAL_OBJECTS =
@@ -426,11 +476,13 @@ DataStructure.exe: CMakeFiles/DataStructure.dir/Search/BST.cpp.obj
 DataStructure.exe: CMakeFiles/DataStructure.dir/Search/AVL.cpp.obj
 DataStructure.exe: CMakeFiles/DataStructure.dir/Sort/Heap_top_k.cpp.obj
 DataStructure.exe: CMakeFiles/DataStructure.dir/Graph/Dijkstra.cpp.obj
+DataStructure.exe: CMakeFiles/DataStructure.dir/Sort/ShellSort.cpp.obj
+DataStructure.exe: CMakeFiles/DataStructure.dir/Sort/QuickSort.cpp.obj
 DataStructure.exe: CMakeFiles/DataStructure.dir/build.make
 DataStructure.exe: CMakeFiles/DataStructure.dir/linklibs.rsp
 DataStructure.exe: CMakeFiles/DataStructure.dir/objects1.rsp
 DataStructure.exe: CMakeFiles/DataStructure.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Clion\Projects\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable DataStructure.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Clion\Projects\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable DataStructure.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DataStructure.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -452,6 +504,8 @@ CMakeFiles/DataStructure.dir/requires: CMakeFiles/DataStructure.dir/Search/BST.c
 CMakeFiles/DataStructure.dir/requires: CMakeFiles/DataStructure.dir/Search/AVL.cpp.obj.requires
 CMakeFiles/DataStructure.dir/requires: CMakeFiles/DataStructure.dir/Sort/Heap_top_k.cpp.obj.requires
 CMakeFiles/DataStructure.dir/requires: CMakeFiles/DataStructure.dir/Graph/Dijkstra.cpp.obj.requires
+CMakeFiles/DataStructure.dir/requires: CMakeFiles/DataStructure.dir/Sort/ShellSort.cpp.obj.requires
+CMakeFiles/DataStructure.dir/requires: CMakeFiles/DataStructure.dir/Sort/QuickSort.cpp.obj.requires
 
 .PHONY : CMakeFiles/DataStructure.dir/requires
 

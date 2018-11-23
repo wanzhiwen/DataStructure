@@ -36,6 +36,12 @@ CMakeFiles/DataStructure.dir/Search/BST.cpp.obj
 CMakeFiles/DataStructure.dir/Sort/Heap_top_k.cpp.obj
  D:/Clion/Projects/DataStructure/Sort/Heap_top_k.cpp
  D:/Clion/Projects/DataStructure/Sort/Heap_top_k.h
+CMakeFiles/DataStructure.dir/Sort/QuickSort.cpp.obj
+ D:/Clion/Projects/DataStructure/Sort/QuickSort.cpp
+ D:/Clion/Projects/DataStructure/Sort/QuickSort.h
+CMakeFiles/DataStructure.dir/Sort/ShellSort.cpp.obj
+ D:/Clion/Projects/DataStructure/Sort/ShellSort.cpp
+ D:/Clion/Projects/DataStructure/Sort/ShellSort.h
 CMakeFiles/DataStructure.dir/Tree/BiTree.cpp.obj
  D:/Clion/Projects/DataStructure/LinearList/SeqQueue.h
  D:/Clion/Projects/DataStructure/Tree/BiTree.cpp

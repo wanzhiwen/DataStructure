@@ -14,6 +14,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Clion/Projects/DataStructure/Search/AVL.cpp" "D:/Clion/Projects/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/Search/AVL.cpp.obj"
   "D:/Clion/Projects/DataStructure/Search/BST.cpp" "D:/Clion/Projects/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/Search/BST.cpp.obj"
   "D:/Clion/Projects/DataStructure/Sort/Heap_top_k.cpp" "D:/Clion/Projects/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/Sort/Heap_top_k.cpp.obj"
+  "D:/Clion/Projects/DataStructure/Sort/QuickSort.cpp" "D:/Clion/Projects/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/Sort/QuickSort.cpp.obj"
+  "D:/Clion/Projects/DataStructure/Sort/ShellSort.cpp" "D:/Clion/Projects/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/Sort/ShellSort.cpp.obj"
   "D:/Clion/Projects/DataStructure/Tree/BiTree.cpp" "D:/Clion/Projects/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/Tree/BiTree.cpp.obj"
   "D:/Clion/Projects/DataStructure/Tree/HuffmanTree.cpp" "D:/Clion/Projects/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/Tree/HuffmanTree.cpp.obj"
   "D:/Clion/Projects/DataStructure/Tree/ThreadTree.cpp" "D:/Clion/Projects/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/Tree/ThreadTree.cpp.obj"

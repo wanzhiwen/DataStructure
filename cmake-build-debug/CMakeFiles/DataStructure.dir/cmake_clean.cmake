@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/DataStructure.dir/Search/AVL.cpp.obj"
   "CMakeFiles/DataStructure.dir/Sort/Heap_top_k.cpp.obj"
   "CMakeFiles/DataStructure.dir/Graph/Dijkstra.cpp.obj"
+  "CMakeFiles/DataStructure.dir/Sort/ShellSort.cpp.obj"
+  "CMakeFiles/DataStructure.dir/Sort/QuickSort.cpp.obj"
   "DataStructure.pdb"
   "DataStructure.exe"
   "DataStructure.exe.manifest"

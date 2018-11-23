@@ -142,6 +142,18 @@
 		<Unit filename="D:/Clion/Projects/DataStructure/Sort/Heap_top_k.h">
 			<Option target="DataStructure"/>
 		</Unit>
+		<Unit filename="D:/Clion/Projects/DataStructure/Sort/QuickSort.cpp">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Clion/Projects/DataStructure/Sort/QuickSort.h">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Clion/Projects/DataStructure/Sort/ShellSort.cpp">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Clion/Projects/DataStructure/Sort/ShellSort.h">
+			<Option target="DataStructure"/>
+		</Unit>
 		<Unit filename="D:/Clion/Projects/DataStructure/Tree/BiTree.cpp">
 			<Option target="DataStructure"/>
 		</Unit>
