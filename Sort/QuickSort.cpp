@@ -40,10 +40,10 @@ void QKSort(KeyType r[], int low, int high){
     }
 }
 
-int main(){
-    KeyType data[11]={0, 65, 15, 57, 34, 55, 23, 98, 67, 87, 89};
-    QKSort(data,1,10);
-    for (int i = 1; i < 10; ++i) {
-        printf("%d ", data[i]);
-    }
-}
+//int main(){
+//    KeyType data[11]={0, 65, 15, 57, 34, 55, 23, 98, 67, 87, 89};
+//    QKSort(data,1,10);
+//    for (int i = 1; i < 10; ++i) {
+//        printf("%d ", data[i]);
+//    }
+//}

@@ -136,10 +136,22 @@
 		<Unit filename="D:/Clion/Projects/DataStructure/Search/BST.h">
 			<Option target="DataStructure"/>
 		</Unit>
+		<Unit filename="D:/Clion/Projects/DataStructure/Sort/HeapSort.cpp">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Clion/Projects/DataStructure/Sort/HeapSort.h">
+			<Option target="DataStructure"/>
+		</Unit>
 		<Unit filename="D:/Clion/Projects/DataStructure/Sort/Heap_top_k.cpp">
 			<Option target="DataStructure"/>
 		</Unit>
 		<Unit filename="D:/Clion/Projects/DataStructure/Sort/Heap_top_k.h">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Clion/Projects/DataStructure/Sort/Merge.cpp">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Clion/Projects/DataStructure/Sort/Merge.h">
 			<Option target="DataStructure"/>
 		</Unit>
 		<Unit filename="D:/Clion/Projects/DataStructure/Sort/QuickSort.cpp">

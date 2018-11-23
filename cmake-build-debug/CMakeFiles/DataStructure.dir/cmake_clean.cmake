@@ -15,6 +15,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/DataStructure.dir/Graph/Dijkstra.cpp.obj"
   "CMakeFiles/DataStructure.dir/Sort/ShellSort.cpp.obj"
   "CMakeFiles/DataStructure.dir/Sort/QuickSort.cpp.obj"
+  "CMakeFiles/DataStructure.dir/Sort/HeapSort.cpp.obj"
+  "CMakeFiles/DataStructure.dir/Sort/Merge.cpp.obj"
   "DataStructure.pdb"
   "DataStructure.exe"
   "DataStructure.exe.manifest"

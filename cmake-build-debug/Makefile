@@ -365,6 +365,33 @@ Search/BST.cpp.s:
 	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/BST.cpp.s
 .PHONY : Search/BST.cpp.s
 
+Sort/HeapSort.obj: Sort/HeapSort.cpp.obj
+
+.PHONY : Sort/HeapSort.obj
+
+# target to build an object file
+Sort/HeapSort.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/HeapSort.cpp.obj
+.PHONY : Sort/HeapSort.cpp.obj
+
+Sort/HeapSort.i: Sort/HeapSort.cpp.i
+
+.PHONY : Sort/HeapSort.i
+
+# target to preprocess a source file
+Sort/HeapSort.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/HeapSort.cpp.i
+.PHONY : Sort/HeapSort.cpp.i
+
+Sort/HeapSort.s: Sort/HeapSort.cpp.s
+
+.PHONY : Sort/HeapSort.s
+
+# target to generate assembly for a file
+Sort/HeapSort.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/HeapSort.cpp.s
+.PHONY : Sort/HeapSort.cpp.s
+
 Sort/Heap_top_k.obj: Sort/Heap_top_k.cpp.obj
 
 .PHONY : Sort/Heap_top_k.obj
@@ -391,6 +418,33 @@ Sort/Heap_top_k.s: Sort/Heap_top_k.cpp.s
 Sort/Heap_top_k.cpp.s:
 	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Heap_top_k.cpp.s
 .PHONY : Sort/Heap_top_k.cpp.s
+
+Sort/Merge.obj: Sort/Merge.cpp.obj
+
+.PHONY : Sort/Merge.obj
+
+# target to build an object file
+Sort/Merge.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Merge.cpp.obj
+.PHONY : Sort/Merge.cpp.obj
+
+Sort/Merge.i: Sort/Merge.cpp.i
+
+.PHONY : Sort/Merge.i
+
+# target to preprocess a source file
+Sort/Merge.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Merge.cpp.i
+.PHONY : Sort/Merge.cpp.i
+
+Sort/Merge.s: Sort/Merge.cpp.s
+
+.PHONY : Sort/Merge.s
+
+# target to generate assembly for a file
+Sort/Merge.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Merge.cpp.s
+.PHONY : Sort/Merge.cpp.s
 
 Sort/QuickSort.obj: Sort/QuickSort.cpp.obj
 
@@ -590,9 +644,15 @@ help:
 	@echo ... Search/BST.obj
 	@echo ... Search/BST.i
 	@echo ... Search/BST.s
+	@echo ... Sort/HeapSort.obj
+	@echo ... Sort/HeapSort.i
+	@echo ... Sort/HeapSort.s
 	@echo ... Sort/Heap_top_k.obj
 	@echo ... Sort/Heap_top_k.i
 	@echo ... Sort/Heap_top_k.s
+	@echo ... Sort/Merge.obj
+	@echo ... Sort/Merge.i
+	@echo ... Sort/Merge.s
 	@echo ... Sort/QuickSort.obj
 	@echo ... Sort/QuickSort.i
 	@echo ... Sort/QuickSort.s
