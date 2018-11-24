@@ -43,11 +43,11 @@ void HeapSort(int r[],int length){
         sift(r,1,i-1);
     }
 }
-int main(){
-    int data[11]={0, 65, 15, 57, 34, 55, 23, 98, 67, 87, 89};
-    createHeap(data,10);
-    HeapSort(data,10);
-    for (int i = 1; i <= 10; ++i) {
-        printf("%d ", data[i]);
-    }
-}
+//int main(){
+//    int data[11]={0, 65, 15, 57, 34, 55, 23, 98, 67, 87, 89};
+//    createHeap(data,10);
+//    HeapSort(data,10);
+//    for (int i = 1; i <= 10; ++i) {
+//        printf("%d ", data[i]);
+//    }
+//}
