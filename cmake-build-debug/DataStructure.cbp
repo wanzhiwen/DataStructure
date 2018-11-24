@@ -136,6 +136,12 @@
 		<Unit filename="D:/Clion/Projects/DataStructure/Search/BST.h">
 			<Option target="DataStructure"/>
 		</Unit>
+		<Unit filename="D:/Clion/Projects/DataStructure/Search/HashSearch.cpp">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Clion/Projects/DataStructure/Search/HashSearch.h">
+			<Option target="DataStructure"/>
+		</Unit>
 		<Unit filename="D:/Clion/Projects/DataStructure/Sort/HeapSort.cpp">
 			<Option target="DataStructure"/>
 		</Unit>

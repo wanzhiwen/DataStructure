@@ -365,6 +365,33 @@ Search/BST.cpp.s:
 	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/BST.cpp.s
 .PHONY : Search/BST.cpp.s
 
+Search/HashSearch.obj: Search/HashSearch.cpp.obj
+
+.PHONY : Search/HashSearch.obj
+
+# target to build an object file
+Search/HashSearch.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/HashSearch.cpp.obj
+.PHONY : Search/HashSearch.cpp.obj
+
+Search/HashSearch.i: Search/HashSearch.cpp.i
+
+.PHONY : Search/HashSearch.i
+
+# target to preprocess a source file
+Search/HashSearch.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/HashSearch.cpp.i
+.PHONY : Search/HashSearch.cpp.i
+
+Search/HashSearch.s: Search/HashSearch.cpp.s
+
+.PHONY : Search/HashSearch.s
+
+# target to generate assembly for a file
+Search/HashSearch.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/HashSearch.cpp.s
+.PHONY : Search/HashSearch.cpp.s
+
 Sort/HeapSort.obj: Sort/HeapSort.cpp.obj
 
 .PHONY : Sort/HeapSort.obj
@@ -644,6 +671,9 @@ help:
 	@echo ... Search/BST.obj
 	@echo ... Search/BST.i
 	@echo ... Search/BST.s
+	@echo ... Search/HashSearch.obj
+	@echo ... Search/HashSearch.i
+	@echo ... Search/HashSearch.s
 	@echo ... Sort/HeapSort.obj
 	@echo ... Sort/HeapSort.i
 	@echo ... Sort/HeapSort.s

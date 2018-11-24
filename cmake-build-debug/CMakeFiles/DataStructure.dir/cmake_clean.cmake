@@ -17,6 +17,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/DataStructure.dir/Sort/QuickSort.cpp.obj"
   "CMakeFiles/DataStructure.dir/Sort/HeapSort.cpp.obj"
   "CMakeFiles/DataStructure.dir/Sort/Merge.cpp.obj"
+  "CMakeFiles/DataStructure.dir/Search/HashSearch.cpp.obj"
   "DataStructure.pdb"
   "DataStructure.exe"
   "DataStructure.exe.manifest"

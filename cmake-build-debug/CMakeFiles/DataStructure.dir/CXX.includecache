@@ -88,6 +88,14 @@ D:/Clion/Projects/DataStructure/Search/BST.h
 iostream
 -
 
+D:/Clion/Projects/DataStructure/Search/HashSearch.cpp
+HashSearch.h
+D:/Clion/Projects/DataStructure/Search/HashSearch.h
+iostream
+D:/Clion/Projects/DataStructure/Search/iostream
+
+D:/Clion/Projects/DataStructure/Search/HashSearch.h
+
 D:/Clion/Projects/DataStructure/Sort/HeapSort.cpp
 HeapSort.h
 D:/Clion/Projects/DataStructure/Sort/HeapSort.h
@@ -103,6 +111,14 @@ D:/Clion/Projects/DataStructure/Sort/Heap_top_k.h
 D:/Clion/Projects/DataStructure/Sort/Heap_top_k.h
 iostream
 D:/Clion/Projects/DataStructure/Sort/iostream
+
+D:/Clion/Projects/DataStructure/Sort/Merge.cpp
+Merge.h
+D:/Clion/Projects/DataStructure/Sort/Merge.h
+iostream
+D:/Clion/Projects/DataStructure/Sort/iostream
+
+D:/Clion/Projects/DataStructure/Sort/Merge.h
 
 D:/Clion/Projects/DataStructure/Sort/QuickSort.cpp
 QuickSort.h

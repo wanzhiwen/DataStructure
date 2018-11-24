@@ -33,11 +33,17 @@ CMakeFiles/DataStructure.dir/Search/AVL.cpp.obj: ../Search/AVL.h
 CMakeFiles/DataStructure.dir/Search/BST.cpp.obj: ../Search/BST.cpp
 CMakeFiles/DataStructure.dir/Search/BST.cpp.obj: ../Search/BST.h
 
+CMakeFiles/DataStructure.dir/Search/HashSearch.cpp.obj: ../Search/HashSearch.cpp
+CMakeFiles/DataStructure.dir/Search/HashSearch.cpp.obj: ../Search/HashSearch.h
+
 CMakeFiles/DataStructure.dir/Sort/HeapSort.cpp.obj: ../Sort/HeapSort.cpp
 CMakeFiles/DataStructure.dir/Sort/HeapSort.cpp.obj: ../Sort/HeapSort.h
 
 CMakeFiles/DataStructure.dir/Sort/Heap_top_k.cpp.obj: ../Sort/Heap_top_k.cpp
 CMakeFiles/DataStructure.dir/Sort/Heap_top_k.cpp.obj: ../Sort/Heap_top_k.h
+
+CMakeFiles/DataStructure.dir/Sort/Merge.cpp.obj: ../Sort/Merge.cpp
+CMakeFiles/DataStructure.dir/Sort/Merge.cpp.obj: ../Sort/Merge.h
 
 CMakeFiles/DataStructure.dir/Sort/QuickSort.cpp.obj: ../Sort/QuickSort.cpp
 CMakeFiles/DataStructure.dir/Sort/QuickSort.cpp.obj: ../Sort/QuickSort.h
